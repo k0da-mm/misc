@@ -4,8 +4,6 @@ import os
 import time
 from bs4 import BeautifulSoup as bs 
 
-# Ultrasurf
-proxy = {'https':'http://127.0.0.1:9666'}
 header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240'}
 
 url = input('Enter URL to scrape: ')
